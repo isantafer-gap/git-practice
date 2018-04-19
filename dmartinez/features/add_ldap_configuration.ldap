@@ -1,0 +1,23 @@
+Feature: Add an LDAP configuration to the RM instance 
+
+Background:
+	Given I am logged as the admin in RM using the username: admin and the password: Zenoss22 
+
+Scenario: Adding an LDAP Configuration to the Instance
+	When I click on the 'Advanced' section tab of the RM application
+	Then I should be able to see the Advanced Settings List
+	When I click on the 'LDAP' option
+	And I click on the '+' symbol
+	Then I should be able to see the 'New LDAP Configuration' Modal
+	When I enter the LDAP credentials:
+	| host | manager-dn | manager-password |
+	| test-win2008-ad.zenoss.loc | CN=Administrator,CN=Users,DC=zenoss-testing,dc=zenoss,dc=loc | D0gP0und! |
+	Then Click on 'Next'
+	And Enter the Configuration Details
+	|                users-base-DN                |                groups-base-DN                |
+    | cn=users,dc=zenoss-testing,dc=zenoss,dc=loc |  cn=users,dc=zenoss-testing,dc=zenoss,dc=loc |
+    Then Click on 'Next'
+    And Click on 'Finish'
+    When I see the Infraestructure page displaying I should be able to see the LDAP configuration for 'test-win2008-ad.zenoss.loc' available
+
+

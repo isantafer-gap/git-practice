@@ -1,0 +1,17 @@
+name, change
+alvaro, init
+david, created 'dnieto_file_A_1.rb' with text 'dnieto has added some text'
+david, created 'dnieto_file_A_2.rb' with no text added
+david, created 'dnieto_file_B.rb' with text 'More text added to this new file'
+yacdaniel, change123
+yacdaniel, change B
+Nora, new files
+nora, echo
+dmartinez, created 'dmartinez_file_B.rb'
+dmartinez, created 'dmartinez_file_A_1.rb'
+dmartinez, created 'dmartinez_file_A_2.rb'
+
+squiros, squiros_file_A_1.rb
+squiros, squiros_file_A_2.rb
+squiros, created the file squiros_file_B.rb
+
