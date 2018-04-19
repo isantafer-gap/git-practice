@@ -15,3 +15,5 @@ squiros, squiros_file_A_1.rb
 squiros, squiros_file_A_2.rb
 squiros, created the file squiros_file_B.rb
 
+isantacruz, created 'isantacruz_file_B.rb'
+isantacruz, edited 'isantacruz_file_B.rb'
